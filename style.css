@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+.header {
+    padding: 2vw 2vw;
+}
+.navigation {
+    padding-left: 1vw;
+    padding-right: 6.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.navigation .menu-icon{
+    display: none;
+    margin-top: 0px;
+}
+.navigation a {
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 5vh;
+    padding:.8vh;
+    padding-bottom: .4vh;
+    border: 1px solid rgb(238, 116, 111);
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+}
+.logo span {
+    color: rgb(238, 116, 111);
+}
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left:3vw;
+
+}
+.navigation ul li a {
+    font-size:3vh;
+    color:blue;
+    padding-bottom: .5vh;
+}
+.navigation ul li i {
+    font-size: 4vh;
+    color: rgb(238, 116, 111);
+}
+.navigation ul li i:hover{
+    color: blue;
+}
+.navigation ul li a:hover{
+    color: rgb(238, 116, 111);
+    border-bottom: 1px solid rgb(238, 116, 111);
+}
+/* body part start here*/
+.body-product {
+    padding: 5vw 3vw;
+    padding-top:0px;
+}
+.body h1 {
+    font-size: 4vh;
+}
+.product {
+    margin-top:5vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .product-item {
+    margin-left: 0px;
+    margin-right:5vh;
+    margin-bottom:10vh;
+    text-align: left;
+}
+.product-item img{
+    border-radius: .5vh;
+    margin-bottom: 2vh;
+    transition: transform 1s;
+}
+.product-item img:hover{
+    transform: scale(1.2,1.2);
+}
+.product-item h3 {
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+    max-width: 90%;
+
+}
+.rating{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(7, 95, 7);
+    padding: .8vh 1vh;
+    font-size: 2vh;
+    border-radius: .5vh;
+}
+.product-item p {
+    margin-bottom: 3vh;
+    font-weight: 701;
+    font-size: 3vh;
+}
+.price-cut {
+    color: rgb(184, 182, 182);
+    text-decoration: line-through;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 2vh;
+}
+.discount {
+    color: rgb(101, 182, 55);
+    font-size: 2vh;
+}
+.cart{
+    border: 1px solid #fff;
+    padding: 2vh 2vh;
+    background-color: rgb(238, 116, 111);
+    font-size: 2vh;
+    border-radius: .9vh;
+    text-decoration: none;
+    color: #fff;
+    transition: background 1s;
+}
+.cart:hover{
+    background-color: rgb(7, 95, 7);
+}
+.cart i{
+ margin-right: 2vh;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    .product .product-item {
+      width: 100%;
+      text-align: center;
+    }
+    .pricing{
+    margin-top: .5vh;
+    }
+    .rating{
+        font-size: 2vh;
+    }
+    .body-product{
+        padding-top: 2vh;
+    }
+    .navigation{
+        display: block;
+        padding-right:1vh;
+    }
+    .navigation ul {
+        background-color: black;
+    
+    }
+    .navigation ul li {
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .navigation ul li:hover{
+        background-color: rgb(238, 116, 111);
+    }
+    .navigation-menu{
+        padding-left: 0px;        
+    }
+    #navigation-men {
+        display: none;
+    }
+    .navigation ul li a {
+        color: #fff;
+        font-size: 2.1vh;
+    }
+    .navigation ul li a:hover{
+        border-style:none ;
+        color: #fff;
+    }
+    .navigation ul li i:hover{
+        color:#fff;
+    }
+
+   /* navigation menu icon here*/
+   .navigation .menu-icon {
+       display: inline-block;
+       position: absolute;
+       font-size: 4.4vh;
+       right: 5vh;
+       color: rgb(238, 116, 111);
+       cursor: pointer;
+
+   }
+
+}

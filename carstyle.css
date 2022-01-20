@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+.cart-product {
+    padding: 2vw 3vw;
+}
+.cart-product img{
+    border-radius: .5vh;
+    margin-bottom: 2vh;
+    transition: transform 1s;
+}
+.cart-product img:hover{
+    transform: scale(1.2,1.2);
+}
+.cart-rating{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(7, 95, 7);
+    padding: .8vh 1vh;
+    font-size: 2vh;
+    border-radius: .5vh;
+}
+.cart-rating i {
+    color: #fff;
+    background-color: rgb(7, 95, 7);
+}
+.cart-pricing {
+    margin-top: 1vh;
+}
+.buy-cart{
+    color:rgb(7, 95, 7);
+    padding-top: 2vh;
+}
+.buy-cart i{
+    font-size: 30px;
+    color:rgb(7, 95, 7);
+    margin-right: 10px;
+}
+.buy-cart span {
+    font-size: 25px;
+}
+.total-price {
+    padding: 2vh 2vh;
+    background-color:#fff;
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+.header-form {
+    text-align: center;
+}
+.content{
+    margin-top: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vh;
+}
+.content h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vh;
+    margin-bottom: 8vh;
+}
+.data {
+    display: block;
+    margin-bottom:3vh;
+}
+.data input {
+    padding: 1vh 2vh;
+    width: 20%;
+    color: #ffffff;
+    background-color:rgb(238, 116, 111);
+    border: #ffffff;
+    border-radius: .5vh;
+}
+i {
+    color:rgb(7, 95, 7);
+}
+.data label {
+    margin-right: 3vh;
+}
+.data .submit {
+    background-color:  rgb(7, 95, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin-top: 4vh;
+    border: #ffffff;
+    border-radius: .5vh;
+}
+@media only screen and (max-width: 600px){
+    .data .submit {
+        font-size: 5vh;
+        width: 30%;
+    }
+
+}
+    
